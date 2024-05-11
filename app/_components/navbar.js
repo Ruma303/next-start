@@ -9,6 +9,10 @@ export default function Navbar() {
                     Users </Link>
                 <Link href="/docs" className='text-md text-blue-400 underline underline-offset-2'>
                     Docs </Link>
+                <Link href="/register" className='text-md text-violet-400 underline underline-offset-2'>
+                    Register </Link>
+                <Link href="/login" className='text-md text-violet-400 underline underline-offset-2'>
+                    Login </Link>
             </nav>
         </div>
     )
