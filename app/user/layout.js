@@ -1,6 +1,4 @@
-import React from 'react'
-
-const layout = ({ children }) => {
+export default function layout({ children }) {
     return (
         <div className="flex flex-col items-center py-4 w-screen">
             <h1 className="text-2xl text-black bg-white w-screen text-center py-2">
@@ -9,5 +7,3 @@ const layout = ({ children }) => {
         </div>
     )
 }
-
-export default layout
