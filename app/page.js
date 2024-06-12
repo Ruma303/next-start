@@ -1,5 +1,10 @@
 import Navbar from "./_components/navbar";
 
+export const metadata = {
+    title: "Next App",
+    description: "This is the home page of the Next.js app",
+};
+
 export default function Home() {
     return (
         <>

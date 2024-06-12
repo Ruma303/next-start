@@ -1,4 +1,12 @@
 import { notFound } from "next/navigation"
+
+export const generateMetadata = ({ params }) =>  {
+    return {
+        title: `User ${params.userId}`,
+        description: `This is the user page for user ${params.userId}`,
+    };
+};
+
 export default function UserId({ params }) {
     if (params.userId == 3) {
         return notFound();
@@ -10,3 +18,4 @@ export default function UserId({ params }) {
         </div>
     )
 }
+
