@@ -1,0 +1,23 @@
+{
+    "restoreTerminals.runOnStartup": true,
+    "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+                {
+                    "shouldRunCommands": true,
+                    "name": "Terminal",
+                    "commands": [
+                        "npm run dev"
+                    ]
+                }
+            ]
+        },
+        {
+            "splitTerminals": [
+                {
+                    "name": "Terminal",
+                }
+            ]
+        },
+    ]
+}
