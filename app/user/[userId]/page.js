@@ -9,6 +9,7 @@ export const generateMetadata = ({ params }) =>  {
 
 export default function UserId({ params }) {
     if (params.userId == 3) {
+        throw new Error("User not found");
         return notFound();
     }
     return (

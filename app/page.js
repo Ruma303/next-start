@@ -6,6 +6,8 @@ export const metadata = {
 };
 
 export default function Home() {
+    //throw new Error("This is an error");
+
     return (
         <>
             <div className="flex min-h-screen flex-col items-center p-24">
