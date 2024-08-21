@@ -5,7 +5,8 @@ import { useRouter } from 'next/navigation';
 
 const navLink = [
     { href: '/', label: 'Home', scroll: true, prefetch: true },
-    { href: '/user', label: 'Users' },
+    { href: '/users', label: 'Users' },
+    { href: '/posts', label: 'Posts' },
     { href: '/docs', label: 'Docs', prefetch: true },
     { href: '/register', label: 'Register' },
     { href: '/login', label: 'Login', scroll: true },
