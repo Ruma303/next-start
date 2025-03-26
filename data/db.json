@@ -1,19 +1,276 @@
 {
-    "posts": [
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "author": {
+        "id": 101,
+        "name": "Alice Smith"
+      },
+      "category": "Tecnologia",
+      "tags": ["novità", "informatica", "lorem"],
+      "createdAt": "2024-03-15T10:30:00Z",
+      "updatedAt": "2024-03-15T11:00:00Z",
+      "published": true,
+      "views": 150,
+      "likes": 25,
+      "comments": [
         {
-            "id": 1,
-            "title": "Post 1",
-            "content": "Content 1"
+          "id": 1,
+          "userId": 201,
+          "text": "Ottimo post!",
+          "createdAt": "2024-03-15T11:15:00Z"
         },
         {
-            "id": 2,
-            "title": "Post 2",
-            "content": "Content 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "content": "Content 3"
+          "id": 2,
+          "userId": 202,
+          "text": "Interessante approfondimento.",
+          "createdAt": "2024-03-15T11:30:00Z"
         }
-    ]
+      ],
+      "image": "https://picsum.photos/200/300",
+      "slug": "post-1-lorem-ipsum"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "body": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "author": {
+        "id": 102,
+        "name": "Bob Johnson"
+      },
+      "category": "Cucina",
+      "tags": ["ricetta", "cibo", "facile"],
+      "createdAt": "2024-03-16T14:20:00Z",
+      "updatedAt": "2024-03-16T14:45:00Z",
+      "published": true,
+      "views": 210,
+      "likes": 38,
+      "comments": [
+        {
+          "id": 8,
+          "userId": 208,
+          "text": "Da provare!",
+          "createdAt": "2024-03-17T10:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/301",
+      "slug": "post-2-pellentesque-habitant"
+    },
+    {
+      "id": 3,
+      "title": "Post 3",
+      "body": "Fusce auctor erat eget mauris luctus, eget iaculis eros pulvinar.",
+      "author": {
+        "id": 101,
+        "name": "Alice Smith"
+      },
+      "category": "Viaggi",
+      "tags": ["avventura", "natura", "esplorazione"],
+      "createdAt": "2024-03-17T09:00:00Z",
+      "updatedAt": "2024-03-17T09:15:00Z",
+      "published": false,
+      "views": 55,
+      "likes": 12,
+      "comments": [
+        {
+          "id": 9,
+          "userId": 209,
+          "text": "Luoghi incantevoli!",
+          "createdAt": "2024-03-17T11:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/302",
+      "slug": "post-3-fusce-auctor-erat"
+    },
+    {
+      "id": 4,
+      "title": "Post 4",
+      "body": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque ornare felis et libero fringilla, eget vulputate turpis faucibus.",
+      "author": {
+        "id": 103,
+        "name": "Charlie Brown"
+      },
+      "category": "Libri",
+      "tags": ["romanzo", "classico", "letteratura"],
+      "createdAt": "2024-03-18T16:55:00Z",
+      "updatedAt": "2024-03-18T17:20:00Z",
+      "published": true,
+      "views": 98,
+      "likes": 18,
+      "comments": [
+        {
+          "id": 3,
+          "userId": 203,
+          "text": "Un libro che consiglio a tutti!",
+          "createdAt": "2024-03-19T08:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/303",
+      "slug": "post-4-vestibulum-ante-ipsum"
+    },
+    {
+      "id": 5,
+      "title": "Post 5",
+      "body": "Maecenas nec aliquet justo, in feugiat sapien.",
+      "author": {
+        "id": 102,
+        "name": "Bob Johnson"
+      },
+      "category": "Cucina",
+      "tags": ["dolce", "forno", "cioccolato"],
+      "createdAt": "2024-03-19T11:30:00Z",
+      "updatedAt": "2024-03-19T12:00:00Z",
+      "published": true,
+      "views": 185,
+      "likes": 42,
+      "comments": [
+        {
+          "id": 10,
+          "userId": 210,
+          "text": "Ricetta fantastica!",
+          "createdAt": "2024-03-19T13:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/304",
+      "slug": "post-5-maecenas-nec-aliquet"
+    },
+    {
+      "id": 6,
+      "title": "Post 6",
+      "body": "Cras at eleifend lorem, a sodales lorem.",
+      "author": {
+        "id": 101,
+        "name": "Alice Smith"
+      },
+      "category": "Tecnologia",
+      "tags": ["software", "sviluppo", "programmazione"],
+      "createdAt": "2024-03-20T15:45:00Z",
+      "updatedAt": "2024-03-20T16:10:00Z",
+      "published": true,
+      "views": 120,
+      "likes": 28,
+      "comments": [
+        {
+          "id": 4,
+          "userId": 204,
+          "text": "Grazie per l'articolo!",
+          "createdAt": "2024-03-20T16:30:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/305",
+      "slug": "post-6-cras-at-eleifend"
+    },
+    {
+      "id": 7,
+      "title": "Post 7",
+      "body": "Nulla facilisi. Sed justo erat, fringilla in velit sit amet, sollicitudin tempus turpis.",
+      "author": {
+        "id": 103,
+        "name": "Charlie Brown"
+      },
+      "category": "Libri",
+      "tags": ["thriller", "suspense", "novità"],
+      "createdAt": "2024-03-21T10:00:00Z",
+      "updatedAt": "2024-03-21T10:25:00Z",
+      "published": true,
+      "views": 78,
+      "likes":15,
+      "comments": [
+        {
+          "id": 11,
+          "userId": 211,
+          "text": "Non vedo l'ora di leggerlo!",
+          "createdAt": "2024-03-21T11:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/306",
+      "slug": "post-7-nulla-facilisi-sed"
+    },
+    {
+      "id": 8,
+      "title": "Post 8",
+      "body": "In id nisi pulvinar, tempor nisl sed, posuere odio.",
+      "author": {
+        "id": 102,
+        "name": "Bob Johnson"
+      },
+      "category": "Cucina",
+      "tags": ["primo", "pasta", "pomodoro"],
+      "createdAt": "2024-03-22T13:15:00Z",
+      "updatedAt": "2024-03-22T13:40:00Z",
+      "published": true,
+      "views": 195,
+      "likes": 45,
+      "comments": [
+        {
+          "id": 5,
+          "userId": 205,
+          "text": "Sembra delizioso!",
+          "createdAt": "2024-03-22T14:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/307",
+      "slug": "post-8-in-id-nisi"
+    },
+    {
+      "id": 9,
+      "title": "Post 9",
+      "body": "Curabitur tristique mauris id purus pulvinar, vitae ultrices erat consectetur.",
+      "author": {
+        "id": 101,
+        "name": "Alice Smith"
+      },
+      "category": "Tecnologia",
+      "tags": ["intelligenza artificiale", "machine learning", "futuro"],
+      "createdAt": "2024-03-23T08:40:00Z",
+      "updatedAt": "2024-03-23T09:05:00Z",
+      "published": true,
+      "views": 250,
+      "likes": 52,
+      "comments": [
+        {
+          "id": 6,
+          "userId": 206,
+          "text": "Articolo molto interessante sull'IA.",
+          "createdAt": "2024-03-23T09:30:00Z"
+        },
+        {
+          "id": 7,
+          "userId": 207,
+          "text": "Vorrei saperne di più.",
+          "createdAt": "2024-03-23T09:45:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/308",
+      "slug": "post-9-curabitur-tristique"
+    },
+    {
+      "id": 10,
+      "title": "Post 10",
+      "body": "Aenean ut malesuada tellus, in fringilla augue.",
+      "author": {
+        "id": 103,
+        "name": "Charlie Brown"
+      },
+      "category": "Libri",
+      "tags": ["fantasy", "saga", "avventura"],
+      "createdAt": "2024-03-24T17:10:00Z",
+      "updatedAt": "2024-03-24T17:35:00Z",
+      "published": true,
+      "views": 110,
+      "likes": 22,
+      "comments": [
+          {
+          "id": 12,
+          "userId": 212,
+          "text": "Bellissima saga!",
+          "createdAt": "2024-03-25T10:00:00Z"
+        }
+      ],
+      "image": "https://picsum.photos/200/309",
+      "slug": "post-10-aenean-ut-malesuada"
+    }
+  ]
 }
