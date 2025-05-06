@@ -10,7 +10,7 @@ const navLink = [
     { href: '/docs', label: 'Docs', prefetch: true },
     { href: '/register', label: 'Register' },
     { href: '/login', label: 'Login', scroll: true },
-    { href: '/contatti', label: 'Contatti' },
+    { href: '/contact', label: 'Contact' },
 ];
 
 export default function Navbar() {
