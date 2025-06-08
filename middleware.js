@@ -15,3 +15,8 @@ export function fallbackToPosts(req) {
     return NextResponse.redirect(new URL("/posts", req.url));
   }
 }
+
+export const config = {
+  matcher: ["/((?!api|_next/static|_next/image|favicon.ico).*)"], // Escludere le rotte API
+  // matcher: ["/", "/register", "/login", "/posts/:path*"], // Consentire queste rotte
+};
